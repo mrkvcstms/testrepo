@@ -1,6 +1,7 @@
 #include "cheer.h"
 
-void cheer()
+void cheer(char c)
 {
     printf("C++\n");
+    printf("%c\n", c);
 }

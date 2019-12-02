@@ -6,9 +6,10 @@ void greet(char *name);
 
 int main() {
     count();
-    cheer();
+
     char name[] = "Levi";
     greet(name);
+    cheer('b');
     printf("Hello, World!\n");
     return 0;
 }
