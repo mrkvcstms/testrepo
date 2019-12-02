@@ -5,7 +5,7 @@
 void greet(char *name);
 
 int main() {
-    count();
+    count(4);
 
     char name[] = "Levi";
     greet(name);
