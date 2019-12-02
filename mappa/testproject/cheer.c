@@ -2,5 +2,5 @@
 
 void cheer()
 {
-    printf("Miserables\n");
+    printf("C++\n");
 }
