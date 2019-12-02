@@ -20,4 +20,5 @@ void greet(char *name, char *name1)
 {
     printf("Hello %s%s!\n", name, name1);
     printf("Greetings!\n");
+    printf("Change\n");
 }
