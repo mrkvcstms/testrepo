@@ -7,6 +7,7 @@ void greet();
 int main() {
     count();
     cheer();
+    greet();
     printf("Hello, World!\n");
     return 0;
 }
