@@ -2,18 +2,19 @@
 #include "my_age_func.h"
 #include "cheer.h"
 
-void greet();
+void greet(char *name);
 
 int main() {
     count();
     cheer();
-    greet();
+    char name[] = "Levi";
+    greet(name);
     printf("Hello, World!\n");
     return 0;
 }
 
 
-void greet()
+void greet(char *name)
 {
-    printf("Hello Tamas!\n");
+    printf("Hello %s!\n", name);
 }
