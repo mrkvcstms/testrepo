@@ -1,7 +1,7 @@
 #include "cheer.h"
 
-void cheer(char c)
+void cheer(char c, int number)
 {
-    printf("C++\n");
     printf("%c\n", c);
+    printf("%d\n", number);
 }

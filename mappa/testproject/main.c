@@ -10,7 +10,8 @@ int main() {
     char othername[] = "Levi von ";
     char name[] = "Leviland";
     greet(othername, name);
-    cheer('b');
+
+    cheer('b', 3);
     printf("Hello, World!\n");
     return 0;
 }
