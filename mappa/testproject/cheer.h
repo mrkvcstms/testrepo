@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void cheer(char c);
+void cheer(char c, int number);
 
 #endif //TESTPROJECT_CHEER_H

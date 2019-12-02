@@ -9,7 +9,7 @@ int main() {
 
     char name[] = "Levi";
     greet(name);
-    cheer('b');
+    cheer('b', 3);
     printf("Hello, World!\n");
     return 0;
 }
