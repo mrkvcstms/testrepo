@@ -17,5 +17,6 @@ int main() {
 
 void greet(char *name)
 {
-    printf("Hello %s!\n", name);
+    //printf("Hello %s!\n", name);
+    printf("Greetings!\n");
 }
