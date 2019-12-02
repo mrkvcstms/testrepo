@@ -4,6 +4,7 @@
 
 int main() {
     count();
+    cheer();
     printf("Hello, World!\n");
     return 0;
 }
