@@ -4,8 +4,9 @@
 #define TESTPROJECT_MY_AGE_FUNC_H
 
 void count(){
-    printf("25\n");
-    printf("Born in month 9. No clue what the task is (:\n")
+    int age = 25;
+    int life_expectancy = 120;
+    printf("%d\n%d\n", age, life_expectancy);
 }
 
 #endif //TESTPROJECT_MY_AGE_FUNC_H
