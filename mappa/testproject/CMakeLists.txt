@@ -3,4 +3,6 @@ project(testproject C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(testproject main.c)
+
+add_executable(testproject main.c cheer.c cheer.h my_age_func.h)
+
